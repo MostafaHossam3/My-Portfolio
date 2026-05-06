@@ -167,6 +167,25 @@ video {
   box-shadow: 0 8px 28px rgba(139, 92, 246, 0.5);
 }
 
+.btn-outline {
+  background: transparent;
+  border-color: rgba(139, 92, 246, 0.5);
+  color: var(--text);
+}
+
+.btn-outline:hover {
+  background: rgba(139, 92, 246, 0.1);
+  border-color: var(--primary);
+  transform: translateY(-1px);
+}
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
 .btn-secondary {
   background: rgba(139, 92, 246, 0.08);
   border-color: rgba(139, 92, 246, 0.35);
